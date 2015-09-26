@@ -53,7 +53,7 @@ git push origin master
 ```
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
-git config --global core.edit *youreditor*
+git config --global core.edit youreditor
 git config --global commit.template ~/.gitmessage.txt
 
 git clone git@github.com:teichopsia-/freeCodeCamp.git
