@@ -2,35 +2,42 @@
 Exercises from Free Code Camp for pair programming
 
 ## Installation && Basic Configuration 
-If you haven't installed git yet, do that first.
+If you haven't installed git yet, do that first:
 https://git-scm.com/downloads
 
 
-First, let's configure your identity on your machine. Replace the examples
-with your information. Remember to use the quotes when setting your name.
+Configure your identity on your machine. Remember to use the quotes when setting your name.
 ```
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 *for more information:* 
-http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration and 
-https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration 
 
 
-To make a copy on your machine, locally, you can do either:
-Using **SSH**
+Clone the repository using either SSH or HTTPS. This will create a folder
+called freeCodeCamp in your working directory with a copy of all the files 
+from the repo.
+Use **SSH**
 ```
 git clone git@github.com:teichopsia-/freeCodeCamp.git
 ```
 
-OR, Using **HTTPS**
+Use **HTTPS**
 ```
 git clone https://github.com/teichopsia-/freeCodeCamp.git
 ```
 *for more information:* 
 https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+ 
 
-This will create a Folder called freeCodeCamp in your working directory. 
-You can delete it and start over while getting the hang of it.
+## How to write a Commit Message && Configuration
+**Configuration**
+http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#Basic-Client-Configuration
+
+*Read this article*
+http://chris.beams.io/posts/git-commit/#separate
 
 
+## Contributing
+https://help.github.com/articles/pushing-to-a-remote/
