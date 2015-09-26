@@ -18,6 +18,7 @@ http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 Clone the repository using either SSH or HTTPS. This will create a folder
 called freeCodeCamp in your working directory with a copy of all the files 
 from the repo.
+
 Use **SSH**
 ```
 git clone git@github.com:teichopsia-/freeCodeCamp.git
