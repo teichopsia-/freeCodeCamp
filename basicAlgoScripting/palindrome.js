@@ -3,7 +3,6 @@
           Strips out all alphanumeric characters and spaces
 */
 
-// @jones-codes freecodecamp user 
 
 function palindrome(str) {
     // toLocaleLowerCase may be preffered
@@ -27,4 +26,9 @@ function palindrome(str) {
     }
 
 
-palindrome("eye");    
+palindrome("eye");    //true
+palindrome("not a palindrome"); //false
+palindrome("0_0 (: /-\ :) 0-0"); //true
+palindrome("1 eye for of 1 eye."); //false
+palindrome("My age is 0, 0 si ega ym."); //true
+palindrome("My age is 0, 0 si ega ym."); //true
