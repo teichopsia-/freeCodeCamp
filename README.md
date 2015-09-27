@@ -48,6 +48,11 @@ https://help.github.com/articles/pushing-to-a-remote/
 git push origin master
 ```
 
+### Troubleshooting
+*This is a great tool to visualize the execution of code.* Click on Javascript.
+http://www.pythontutor.com/
+
+
 ### TL;DR
 
 ```
