@@ -4,10 +4,14 @@
 */
 
 
+// no need to escape _ when at begginning or end of [ ]
+//  /[_\W\s]/gi
+
+// toLocaleLowerCase may be preffered
+// http://stackoverflow.com/questions/154862/convert-javascript-string-to-be-all-lower-case
+
 function palindrome(str) {
-    // toLocaleLowerCase may be preffered
-    // http://stackoverflow.com/questions/154862/convert-javascript-string-to-be-all-lower-case
-    var er = /[\_\W\s]/gi
+    var er = /[\_\W\s]/gi    
     str = str.toLowerCase().replace(er, '');
     console.log(str)
     var index = 0;
@@ -32,3 +36,16 @@ palindrome("0_0 (: /-\ :) 0-0"); //true
 palindrome("1 eye for of 1 eye."); //false
 palindrome("My age is 0, 0 si ega ym."); //true
 palindrome("My age is 0, 0 si ega ym."); //true
+
+
+/*
+Other solutions
+
+function palindrome(str) {
+  str = str.replace(/[\W_]/ig, "").toLowerCase();
+  return str == str.split('').reverse().join('');
+}
+
+*/
+
+
